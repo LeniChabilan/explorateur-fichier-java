@@ -24,9 +24,18 @@ public abstract class Inode {
         return name;
     }
 
-    // Size of the inode in bytes (or arbitrary unit)
+    /**
+     * Returns the size of this inode.
+     *
+     * @return the size
+     */
     public abstract int getSize();
 
+    /**
+     * Returns a string representation of the inode.
+     *
+     * @return the name of the inode
+     */
     @Override
     public String toString() {
         return name;
