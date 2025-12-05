@@ -18,14 +18,6 @@ public class ErrorCommand extends Command {
     }
 
     /**
-     * Gets the error message.
-     * @return the error message
-     */
-    public String getMessage() { 
-        return message; 
-    }
-
-    /**
      * Executes the error command to return the error message.
      * @return the error message
      */
