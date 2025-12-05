@@ -20,5 +20,5 @@ public interface IUserInterface {
     /**
      * Runs the user interface.
      */
-    void run();
+    public void run();
 }
