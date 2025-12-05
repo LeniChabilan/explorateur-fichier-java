@@ -1,3 +1,15 @@
+/*
+ * MakeDirectoryCommand.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Command implementation for creating new directories in the file system.
+ * Checks for duplicate names before creation.
+ */
+
 package com.esiea.pootd2.commands;
 
 import com.esiea.pootd2.controllers.ExplorerController;

@@ -1,3 +1,15 @@
+/*
+ * FolderInode.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Represents a folder (directory) inode in the file system.
+ * Manages child inodes and parent-child relationships.
+ */
+
 package com.esiea.pootd2.models;
 
 import java.util.ArrayList;

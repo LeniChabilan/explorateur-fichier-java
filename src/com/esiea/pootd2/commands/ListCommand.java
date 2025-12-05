@@ -1,3 +1,15 @@
+/*
+ * ListCommand.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Command implementation for listing the contents of the current directory.
+ * Displays name and size of each inode.
+ */
+
 package com.esiea.pootd2.commands;
 
 import com.esiea.pootd2.controllers.ExplorerController;

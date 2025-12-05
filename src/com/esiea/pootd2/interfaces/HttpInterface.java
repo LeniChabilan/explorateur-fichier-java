@@ -1,3 +1,16 @@
+/*
+ * HttpInterface.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * HTTP-based user interface implementation.
+ * Provides a web-based console for interacting with the file explorer
+ * on port 8001.
+ */
+
 package com.esiea.pootd2.interfaces;
 
 import java.io.IOException;

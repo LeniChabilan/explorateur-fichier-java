@@ -1,3 +1,15 @@
+/*
+ * ExplorerController.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Main controller for the file explorer application.
+ * Manages the file system state and command execution.
+ */
+
 package com.esiea.pootd2.controllers;
 
 import com.esiea.pootd2.commands.*;

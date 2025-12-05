@@ -1,3 +1,15 @@
+/*
+ * FileInode.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Represents a file inode in the file system.
+ * Files have a random or specified size between 1 and 100,000 bytes.
+ */
+
 package com.esiea.pootd2.models;
 
 import java.util.Random;

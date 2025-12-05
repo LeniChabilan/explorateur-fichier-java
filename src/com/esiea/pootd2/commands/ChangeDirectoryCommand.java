@@ -1,3 +1,15 @@
+/*
+ * ChangeDirectoryCommand.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Command implementation for changing the current working directory.
+ * Supports navigation to child directories and parent directory (..).
+ */
+
 package com.esiea.pootd2.commands;
 
 import com.esiea.pootd2.controllers.ExplorerController;

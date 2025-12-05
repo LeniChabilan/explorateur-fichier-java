@@ -1,3 +1,15 @@
+/*
+ * Inode.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Abstract base class representing a file system inode.
+ * All files and folders inherit from this class.
+ */
+
 package com.esiea.pootd2.models;
 
 /**

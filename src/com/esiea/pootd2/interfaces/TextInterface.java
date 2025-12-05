@@ -1,3 +1,15 @@
+/*
+ * TextInterface.java
+ * 
+ * Version 1.0
+ * Date: December 2025
+ * 
+ * Copyright (c) 2025 ESIEA. All rights reserved.
+ * 
+ * Text-based command-line user interface implementation.
+ * Reads commands from standard input and displays results.
+ */
+
 package com.esiea.pootd2.interfaces;
 
 import com.esiea.pootd2.controllers.IExplorerController;
