@@ -4,12 +4,36 @@ import com.esiea.pootd2.controllers.ExplorerController;
 import com.esiea.pootd2.models.FolderInode;
 import com.esiea.pootd2.models.Inode;
 
+/**
+ * Command to change the current directory.
+ */
 public class ChangeDirectoryCommand extends Command {
+    /**
+     * The path to change to.
+     */
     private final String path;
-    public ChangeDirectoryCommand(String path) { this.path = path; }
-    public String getPath() { return path; }
 
+    /**
+     * Constructor for ChangeDirectoryCommand.
+     * @param path the path to change to
+     */
+    public ChangeDirectoryCommand(String path) { 
+        this.path = path; 
+    }
 
+    /**
+     * Gets the path to change to.
+     * @return the path
+     */
+    public String getPath() { 
+        return path; 
+    }
+
+    /**
+     * Executes the cd command to change the current directory.
+     * @param controller the explorer controller
+     * @return result message of the command execution
+     */
     public String doCommand(ExplorerController controller) {
         String path = this.getPath();
         if (path.equals("..")) {
