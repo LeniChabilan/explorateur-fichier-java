@@ -11,6 +11,7 @@ A command-line file explorer built in Java, with both text and web interfaces.
 
 ### Prerequisites
 - Java JDK 17 or higher
+- Make (optional, for using Makefile)
 
 ### Build and Run
 
@@ -55,29 +56,9 @@ readme.txt 42567
 ```
 
 ### Web Interface
-Launch the application with the `http`. Open a second terminal and use `curl`:
-```bash
-execute commands via HTTP:
+Launch the application with the `http` argument and access it via `http://localhost:8001`.
 
-# execute 'ls' command
-curl -d "ls" -X POST http://localhost:8001/execute
-
-# execute 'mkdir test' command
-curl -d "mkdir test" -X POST http://localhost:8001/execute
-
-# execute 'cd' command
-curl -d "cd test" -X POST http://localhost:8001/execute
-
-# execute 'touch' command
-curl -d "touch file.txt" -X POST http://localhost:8001/execute
-
-# execute 'cd' command
-curl -d "cd .." -X POST http://localhost:8001/execute
-
-# execute 'ls' command
-curl -d "ls" -X POST http://localhost:8001/execute
-```
-
+And that's it! You now have a simple Java file explorer with both text and web interfaces.
 
 ---
 
