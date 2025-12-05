@@ -4,11 +4,36 @@ import com.esiea.pootd2.controllers.ExplorerController;
 import com.esiea.pootd2.models.FolderInode;
 import com.esiea.pootd2.models.Inode;
 
+/**
+ * Command to create a new directory.
+ */
 public class MakeDirectoryCommand extends Command {
+    /**
+     * The name of the directory to create.
+     */
     private final String name;
-    public MakeDirectoryCommand(String name) { this.name = name; }
-    public String getName() { return name; }
 
+    /**
+     * Constructor for MakeDirectoryCommand.
+     * @param name the name of the directory to create
+     */
+    public MakeDirectoryCommand(String name) { 
+        this.name = name; 
+    }
+
+    /**
+     * Gets the name of the directory to create.
+     * @return the name of the directory
+     */
+    public String getName() { 
+        return name; 
+    }
+
+    /**
+     * Executes the mkdir command to create a new directory in the current directory.
+     * @param controller the explorer controller
+     * @return result message of the command execution
+     */
     public String doCommand(ExplorerController controller) {
         String name = this.getName();
         // check if name already exists
